@@ -1,0 +1,11 @@
+export const INCREMENT_COUNTER = "INCREMENT_COUNTER";
+export const DECREMENT_COUNTER = "DECREMENT_COUNTER";
+export const AUTH_USER = "AUTH_USER";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const ADD_TODO = "ADD_TODO";
+export const TODO_ERROR = "TODO_ERROR";
+export const FETCH_TODOS = "FETCH_TODOS";
+export const MEALS_ERROR = "MEALS_ERROR";
+export const FETCH_MEALS = "FETCH_MEALS";
+export const FETCH_CALC = "FETCH_CALC";
+export const CALC_ERROR = "CALC_ERROR";
