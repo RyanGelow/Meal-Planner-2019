@@ -6,7 +6,7 @@ const cors      = require('cors');
 const app = express();
 
 // Database setupx
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://rgelow:Coding2019@ds257848.mlab.com:57848/heroku_7rjwz0zs', { 
+mongoose.connect('mongodb://rgelow:Coding2019@ds257848.mlab.com:57848/heroku_7rjwz0zs' || process.env.MONGODB_URI, { 
   useNewUrlParser: true, 
   useCreateIndex: true
 });
