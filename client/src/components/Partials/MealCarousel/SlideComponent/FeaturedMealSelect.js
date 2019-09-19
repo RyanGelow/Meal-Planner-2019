@@ -29,12 +29,12 @@ class FeaturedMealSelect extends Component {
   handleFavorite = index => {
     if(!document.getElementById(this.state.meals[index].idMeal).classList.contains('active')){
       console.log('you have favorited this meal: ' + JSON.stringify(this.state.meals[index].strMeal));
-      alert('you have favorited this meal: ' + JSON.stringify(this.state.meals[index].strMeal));
+      // alert('you have favorited this meal: ' + JSON.stringify(this.state.meals[index].strMeal));
       var element = document.getElementById(this.state.meals[index].idMeal);
       element.classList.toggle("active");
     }else {
       console.log('you have unfavorited this meal: ' + JSON.stringify(this.state.meals[index].strMeal));
-      alert('you have unfavorited this meal: ' + JSON.stringify(this.state.meals[index].strMeal));
+      // alert('you have unfavorited this meal: ' + JSON.stringify(this.state.meals[index].strMeal));
       var element = document.getElementById(this.state.meals[index].idMeal);
       element.classList.toggle("active");
     }
